@@ -1,101 +1,364 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>Techtorpedo</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="UTF-8">
-	
-	
-	<!-- Font -->
-	
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CPoppins:400,500" rel="stylesheet">
-	
-	<!-- Stylesheets -->
-	
-	<link href="common-css/bootstrap.css" rel="stylesheet">
-	
-	
-	<link href="common-css/ionicons.css" rel="stylesheet">
-	
-	
-	<link rel="stylesheet" href="common-css/jquery.classycountdown.css" />
-		
-	<link href="01-comming-soon/css/styles.css" rel="stylesheet">
-	
-	<link href="01-comming-soon/css/responsive.css" rel="stylesheet">
-	
-</head>
-<body>
-	
-	<div class="main-area">
-		<div class="container full-height position-static">
-			
-			<section class="left-section full-height">
-		
-				<a class="logo" width="50%" href="#"><img src="images/techo.png" alt="Logo"></a>
-				
-				<div class="display-table">
-					<div class="display-table-cell">
-						<div class="main-content">
-							<h1 class="title"><b>Under Construction</b></h1>
-							<p>Techtorpedo is currently undergoing a revamp.
-								We Should be back shortly. Thank you for your patience.</p>
 
-							<div class="email-input-area">
-								<form method="post">
-									<input class="email-input" name="email" type="text" placeholder="Enter your email"/>
-									<button class="submit-btn" name="submit" type="submit"><b>NOTIFY US</b></button>
-								</form>
-							</div><!-- email-input-area -->
-							
-							<p class="post-desc">Sign up now to get early notification of our lauch date!</p>
-						</div><!-- main-content -->
-					</div><!-- display-table-cell -->
-				</div><!-- display-table -->
-				
-				<ul class="footer-icons">
-					<li>Stay in touch : </li>
-					<li><a href="https://www.facebook.com/Techtorpedohttps://www.facebook.com/Techtorpedo"><i class="ion-social-facebook"></i></a></li>
-					<li><a href="https://www.instagram.com/techtorpedo/?hl=en"><i class="ion-social-instagram-outline"></i></a></li>
-				
-				</ul>
-		
-			</section><!-- left-section -->
-		
-			<section class="right-section" style="background-image: url(images/test2.jpg)">
-			
-				<div class="display-table center-text">
-					<div class="display-table-cell">
-						
-						
-						<div id="rounded-countdown">
-							<div class="countdown" data-remaining-sec="2000000"></div>
-						</div>
-						
-					</div><!-- display-table-cell -->
-				</div><!-- display-table -->
-				
-			</section><!-- right-section -->
-		
-		</div><!-- container -->
-	</div><!-- main-area -->
-	
-	<!-- SCIPTS -->
-	
-	<script src="common-js/jquery-3.1.1.min.js"></script>
-	
-	<script src="common-js/tether.min.js"></script>
-	
-	<script src="common-js/bootstrap.js"></script>
-	
-	<script src="common-js/jquery.classycountdown.js"></script>
-	
-	<script src="common-js/jquery.knob.js"></script>
-	
-	<script src="common-js/jquery.throttle.js"></script>
-	
-	<script src="common-js/scripts.js"></script>
-	
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Techtorpedo | Home</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Stylesheet -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="mosh-preloader"></div>
+    </div>
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header_area clearfix">
+        <div class="container-fluid h-100">
+            <div class="row h-100">
+                <!-- Menu Area Start -->
+                <div class="col-12 h-100">
+                    <div class="menu_area h-100">
+                        <nav class="navbar h-100 navbar-expand-lg align-items-center">
+                            <!-- Logo -->
+                            <a class="navbar-brand" href="index.html" style="color: white; text-align: center; line-height: 0.7; ">Techtorpedo<br><span style="font-size: 0.5em; text-align: center;">Bringing a creative revolution</span></a>
+
+                            <!-- Menu Area -->
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mosh-navbar" aria-controls="mosh-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+                            <div class="collapse navbar-collapse justify-content-end" id="mosh-navbar">
+                                <ul class="navbar-nav animated" id="nav">
+                                    <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                                  
+                                </ul>
+                                <!-- Search Form Area Start -->
+                           
+                                <!-- Search btn -->
+                             
+                                <!-- Login/Register btn -->
+                              
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Welcome Area Start ***** -->
+    <section class="welcome_area clearfix" id="home" style="background-image: url(img/bg-img/welcome-bg.png)">
+        <div class="hero-slides owl-carousel">
+            <!-- Single Hero Slides -->
+            <div class="single-hero-slide d-flex align-items-end justify-content-center">
+                <div class="hero-slide-content text-center">
+                    <h2>Website Design</h2>
+                    <h4>Contact us for a free consultation!</h4>
+                    <img class="slide-img" src="img/bg-img/website.png" alt="">
+                </div>
+            </div>
+            <!-- Single Hero Slides -->
+            <div class="single-hero-slide d-flex align-items-end justify-content-center">
+                <div class="hero-slide-content text-center">
+                    <h2>Brand Strategy</h2>
+                    <h4>We help in branding your company</h4>
+                    <img class="slide-img" src="img/bg-img/device2.png" alt="">
+                </div>
+            </div>
+            <!-- Single Hero Slides -->
+            <div class="single-hero-slide d-flex align-items-end justify-content-center">
+                <div class="hero-slide-content text-center">
+                    <h2>Digital Marketing</h2>
+                    <h4>smart digital strategies to gain maximum market share</h4>
+                    <img class="slide-img" src="img/bg-img/device3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Welcome Area End ***** -->
+
+    <!-- ***** Service Area Start ***** -->
+    <section class="mosh-service-area clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="mosh-service-slides owl-carousel">
+                        <!-- Single Service Area -->
+                        <div class="single-service-area text-center">
+                            <h2>01.</h2>
+                            <h4>Time to upgrade!</h4>
+                            <p>Here at Techtorpedo, our experts are always ready and up to the task.</p>
+                        </div>
+                        <!-- Single Service Area -->
+                        <div class="single-service-area text-center">
+                            <h2>02.</h2>
+                            <h4>Website Design</h4>
+                            <p>Our web design services will greatly enhance your business’s presence on the Internet.</p>
+                        </div>
+                        <!-- Single Service Area -->
+                        <div class="single-service-area text-center">
+                            <h2>03.</h2>
+                            <h4>Digital Markeitng</h4>
+                            <p>We craft smart digital strategies to help you maximize your market share.</p>
+                        </div>
+                        <!-- Single Service Area -->
+                        <div class="single-service-area text-center">
+                            <h2>04.</h2>
+                            <h4>Brand Strategy</h4>
+                            <p>Let us ignite your brand!. Increase your brand recognition online and increase your audience.</p>
+                        </div>
+                        <!-- Single Service Area -->
+                        <div class="single-service-area text-center">
+                            <h2>05.</h2>
+                            <h4>Website maintenance</h4>
+                            <p>We help your website keep up with the ever-changing and evolving industry.</p>
+                        </div>
+                        <!-- Single Service Area -->
+                        <div class="single-service-area text-center">
+                            <h2>06.</h2>
+                            <h4>Search engine optimization</h4>
+                            <p>Techtorpedo offers SEO services that drive sales — not just traffic.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Discover More btn -->
+                <div class="col-12 text-center mt-100">
+                    <a href="services.html" class="btn mosh-btn">Discover More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Service Area End ***** -->
+
+    <!-- ***** Clients Area Start ***** -->
+    <br>
+    <!-- ***** Clients Area End ***** -->
+
+    <!-- ***** Features Area Start ***** -->
+    <section class="mosh-features-area section_padding_100 clearfix">
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-12 col-md-6">
+                    <div class="section-heading">
+                        <p>clients</p>
+                        <h2>What you get if you start your business with us</h2>
+                    </div>
+                    <div class="features-content">
+                        <p>Here at Techtorpedo, we don’t just take your needs and serve you a web design or marketing strategy - we ensure that your brand and business will stand out from the crowd.  Techtorpedo’ website designers, website developers and marketing strategist take the time to get to know you and your market to create an all-encompassing digital marketing presence. Our internationally based company is focused on delivering results for our clients. Our team can help you reach your target audience and other marketing goals through brand exposure, a custom website and increasing website traffic. Techtorpedo’ Digital Marketing Team specializes in Search Engine Optimization, Social Media, Pay-per-Click, Influencer Marketing, and more!</p>
+                        <!-- Progress Bar Content Area -->
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature Thumb -->
+        <div class="features-img">
+            <img src="img/bg-img/features.png" alt="">
+        </div>
+    </section>
+    <!-- ***** Feature Area End ***** -->
+
+    <!-- ***** Service Area Start ***** -->
+    <section class="mosh-more-services-area d-sm-flex clearfix">
+        <div class="single-more-service-area">
+            <div class="more-service-content text-center wow fadeInUp" data-wow-delay=".1s">
+                <img src="img/core-img/trophy.png" alt="">
+                <h4>Branding</h4>
+                <p>Your brand should be on all you do. We strategicall mesh your identity into the final product in a way that produces concepts that will resonate with your target audience and make you stand out among the competition.</p>
+            </div>
+        </div>
+        <div class="single-more-service-area">
+            <div class="more-service-content text-center wow fadeInUp" data-wow-delay=".4s">
+                <img src="img/core-img/edit.png" alt="">
+                <h4>Website Maintenance</h4>
+                <p>Our maintenance package is highly recommended as we not only help you in devloping but we also help you in managing the website's content periodically.</p>
+            </div>
+        </div>
+        <div class="single-more-service-area">
+            <div class="more-service-content text-center wow fadeInUp" data-wow-delay=".7s">
+                <img src="img/core-img/video-camera.png" alt="">
+                <h4>Modern Design</h4>
+                <p>We make sure that your custom built website is mobile friendly with a modern responsive design. Techtorpedo will provide you with an innovative and highly adaptive web design solution.</p>
+            </div>
+        </div>
+        <div class="single-more-service-area">
+            <div class="more-service-content text-center wow fadeInUp" data-wow-delay="1s">
+                <img src="img/core-img/presentation.png" alt="">
+                <h4>Marketing Strategist</h4>
+                <p>Our team of experts can bring your marketing campaigns to a new level. Streamline your company’s marketing operation and reduce the margin for error with our marketing experts. </p>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Service Area End ***** -->
+
+
+    <!-- ***** Workflow Area Start ***** -->
+    <section class="mosh-workflow-area section_padding_100_0 clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center mb-0">
+                        <p>Our Work Flow</p>
+                        <h2>This is how we work on Projects</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="workflow-img">
+            <img src="img/core-img/work-progress.png" alt="">
+        </div>
+
+        <div class="workflow-slides-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="mosh-workflow-slides owl-carousel">
+                            <!-- Single Service Area -->
+                            <div class="single-workflow-area d-flex">
+                                <h2>1.</h2>
+                                <div class="workflow-content ml-15">
+                                    <h4>You make the smart choice to upgrade!</h4>
+                                    <p>We are ready and upto the task to help your business take the next step.</p>
+                                </div>
+                            </div>
+                            <!-- Single Service Area -->
+                            <div class="single-workflow-area d-flex">
+                                <h2>2.</h2>
+                                <div class="workflow-content ml-15">
+                                    <h4>We study and learn the need and wants of your business</h4>
+                                    <p>We will work with you to figure out your exact needs and expectations, to create a first template.</p>
+                                </div>
+                            </div>
+                            <!-- Single Service Area -->
+                            <div class="single-workflow-area d-flex">
+                                <h2>3.</h2>
+                                <div class="workflow-content ml-15">
+                                    <h4>Our mad geniuses get to work!</h4>
+                                    <p>Our experts will work to bring your needs and expectations together to create a well polished final product.</p>
+                                </div>
+                            </div>
+                            <!-- Single Service Area -->
+                            <div class="single-workflow-area d-flex">
+                                <h2>4.</h2>
+                                <div class="workflow-content ml-15">
+                                    <h4>A beautiful finished product</h4>
+                                    <p>Your product/ service is completed and your business is now on the path to sucess.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Service Area End ***** -->
+
+    <!-- ***** CTA Area Start ***** -->
+    <section class="mosh-call-to-action-area bg-img bg-overlay section_padding_100" style="background-image: url(img/bg-img/cta.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="cta-content text-center wow fadeIn" data-wow-delay="0.5s">
+                        <div class="section-heading">
+                            <p>Contact us for a free consultation!</p>
+                            <h2>techtorpedo@outlook.com</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** CTA Area End ***** -->
+
+    <!-- ***** Footer Area Start ***** -->
+    <footer class="footer-area clearfix">
+        <!-- Top Fotter Area -->
+        <div class="top-footer-area section_padding_100_0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-8">
+                        <div class="single-footer-widget mb-100">
+                            <h5>About Us</h5>
+                            <p>We are based in many different countries and operate in English and Chinese. Our rates are extremely affordable compared to the our competitors.We will help you with developing a website, managing it, digital marketing and branding the company as a whole package. Our maintenance package is highly recommended as we not only help you in devloping but we also help you in managing the website's content periodically.</p>
+                        </div>
+                    </div>
+                    
+               
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="single-footer-widget mb-100">
+                            <h5>Contact Info</h5>
+                            <div class="footer-single-contact-info d-flex">
+                                <div class="contact-icon">
+                                    <img src="img/core-img/map.png" alt="">
+                                </div>
+                                <p>Shenyang, China<br>Minnesota, USA<br>Colombo, Srilanka</p>
+                            
+                            </div>
+                            <div class="footer-single-contact-info d-flex">
+                                <div class="contact-icon">
+                                    <img src="img/core-img/call.png" alt="">
+                                </div>
+                                <p>CN: +86-156-4027-8912 <br> US: +1-206-747-9342 <br> LK: +94-77-448-9920</p>
+                            </div>
+                            <div class="footer-single-contact-info d-flex">
+                                <div class="contact-icon">
+                                    <img src="img/core-img/message.png" alt="">
+                                </div>
+                                <p>techtorpedo@outlook.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fotter Bottom Area -->
+        <div class="footer-bottom-area">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col-6">
+                        <div class="footer-bottom-content h-100 d-md-flex justify-content-between align-items-center">
+                            <div class="footer-social-info">
+                                <a href="https://www.facebook.com/RandR.CreativeSolutions/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="https://www.linkedin.com/in/rr-creative-solutions-b92250186/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ***** Footer Area End ***** -->
+
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
 </body>
+
 </html>
